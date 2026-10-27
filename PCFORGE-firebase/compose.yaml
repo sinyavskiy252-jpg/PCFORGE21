@@ -1,0 +1,7 @@
+services:
+  pcforge:
+    build: .
+    container_name: pcforge-site
+    ports:
+      - "8080:80"
+    restart: unless-stopped
